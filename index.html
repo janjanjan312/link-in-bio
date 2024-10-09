@@ -22,6 +22,7 @@
       padding-bottom: 40px;
       background: linear-gradient(90deg, #000305, #00080a, #000d0b, #001009, #071305, #111401, #1a1400, #211402); 
       color: rgba(255, 255, 255, 1.0);
+      font-family: "Garamond";
     }
 
     a {
@@ -42,6 +43,38 @@
 
     .item {
       background-color: rgba(52, 50, 51, 0.25);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: "Georgia";
+      font-size: 24px;
+      font-weight: 900;
+    }
+    
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1
     }
 
 
@@ -71,7 +104,7 @@
       <div class="item">
         <img class="thumbnail" src="/CLOUD GAMING.png">
 
-        <a target="_blank" href="https://acoustic-flat-c6b.notion.site/AI-Cloud-UGC-Gaming-Platform-d22641cbefce4db780a4d47d857e074e">
+        <a class="link-text" target="_blank" href="https://acoustic-flat-c6b.notion.site/AI-Cloud-UGC-Gaming-Platform-d22641cbefce4db780a4d47d857e074e">
           AI Cloud Gaming Platform Proposal
         </a>
       </div>
@@ -79,7 +112,7 @@
       <div class="item">
         <img class="thumbnail" src="/ZOOTOPIA.jpg">
 
-        <a target="_blank" href="https://acoustic-flat-c6b.notion.site/Zootopia-VR-AR-Online-Game-403b5169441a4c898ec63d050ecf61f6">
+        <a class="link-text" target="_blank" href="https://acoustic-flat-c6b.notion.site/Zootopia-VR-AR-Online-Game-403b5169441a4c898ec63d050ecf61f6">
           Zootopia AR&VR Games
         </a>
       </div>
